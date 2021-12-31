@@ -32,9 +32,9 @@ const App = () => {
               repeat={Infinity}
               /></h3>
           </div>
-      </div>
       <div className="sprite">
         <img src={me} alt="my sprite" />
+      </div>
       </div>
       <div>
         <About />

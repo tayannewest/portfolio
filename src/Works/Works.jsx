@@ -4,9 +4,11 @@ import "./Work.css"
 const Works = () => {
   return (
       <div className="all-work">
+        <h2>Recent Projects</h2>
         <div className="work odd">
           <a href="http://swatchdog.herokuapp.com/">SwatchDog</a>
-          An online swatch library for artists <br />
+          An online swatch library for artists    
+          <br />
           Django | AWS S3 | PostgreSQL
         </div>
         <div className="work even">

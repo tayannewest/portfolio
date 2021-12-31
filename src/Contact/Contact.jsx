@@ -8,10 +8,12 @@ const Contact = () => {
         <div>
           <address className="addresses">
             Email me: 
-            <a href="mailto:tayanne.west@gmail.com"> Gmail Logo </a>
-            Connect with me:
-            <a href="https://www.linkedin.com/in/tayannewest/"> LinkedIn Logo </a>
+            <a href="mailto:tayanne.west@gmail.com"> Email </a>
           </address>
+          Check my qualifications: <a href="https://docs.google.com/document/d/1MeqHFGCsltH8sX5Giue024IBYjBj7RPrwDK55thUf1I/edit?usp=sharing">Resume</a>
+          <br />
+          Connect with me:
+          <a href="https://www.linkedin.com/in/tayannewest/"> LinkedIn </a>
         </div>
       </div>
     </div>

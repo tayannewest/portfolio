@@ -1,0 +1,51 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.odd {
+  align-content: flex-start;
+  background: linear-gradient(to right, rgba(49, 227, 144, 0.6), rgba(49, 227, 144, 0));
+  border-top: 3px solid rgba(49, 227, 144, 1);
+  border-left: 3px solid rgba(49, 227, 144, 1);
+  border-bottom: 3px solid rgba(49, 227, 144, 1);
+  border-radius: 8px;
+  box-shadow: -5px 0px 10px 5px rgba(49, 227, 144, 1);
+  padding: 10px;
+  margin: 30px;
+}
+
+.odd a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgba(49, 227, 144, 1), 0 0 40px rgba(49, 227, 144, 1), 0 0 50px rgba(49, 227, 144, 1), 0 0 60px rgba(49, 227, 144, 1), 0 0 70px rgba(49, 227, 144, 1);
+  transition: 666ms;
+}
+
+.even {
+  align-content: flex-end;
+  background: linear-gradient(to left, rgba(102, 37, 177, 0.5), rgba(102, 37, 177, 0));
+  border-top: 3px solid rgba(102, 37, 177, 1);
+  border-right: 3px solid rgba(102, 37, 177, 1);
+  border-bottom: 3px solid rgba(102, 37, 177, 1);
+  border-radius: 8px;
+  box-shadow: 5px 0px 10px 5px rgba(102, 37, 177, 1);
+  padding: 10px;
+  margin: 30px;
+}
+
+.even a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgba(102, 37, 177, 1), 0 0 40px rgba(102, 37, 177, 1), 0 0 50px rgba(102, 37, 177, 1), 0 0 60px rgba(102, 37, 177, 1), 0 0 70px rgba(102, 37, 177, 1);
+  transition: 666ms;
+}
+
+a {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 800px) {
+
+
+
+}

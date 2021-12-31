@@ -10,21 +10,26 @@ const App = () => {
   return (
     <div>
       <div className="header">
-      <h1>Tay West</h1>
-        <h3 className="typing">
-          <TypeAnimation
-          cursor={true}
-          sequence={[
-            " software developer",
-            2500,
-            " visual designer",
-            2500,
-            " big nerd",
-            2500,
-          ]}
-          repeat={Infinity}
-          /></h3>
-          <h2>Hello it's me Tay and wow I'm doing my little best over here</h2>
+        <div className="name">
+          <h1>Tay West</h1>
+            <h3 className="typing">
+              <TypeAnimation
+              cursor={true}
+              sequence={[
+                "software developer",
+                2200,
+                "visual designer",
+                2200,
+                "front-end fanatic",
+                2200,
+                "eight-foot vertical leap",
+                2000,
+                "video game enthusiast",
+                2200,
+              ]}
+              repeat={Infinity}
+              /></h3>
+          </div>
       </div>
       <div>
         <About />

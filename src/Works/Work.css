@@ -1,8 +1,10 @@
-.work {
+.all-work {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   line-height: 2.5rem;
+  font-size: 1.2rem;
+  margin: 20px;
 }
 
 .odd {
@@ -12,7 +14,9 @@
   border-left: 3px solid rgba(222, 59, 208, 1);
   border-bottom: 3px solid rgba(222, 59, 208, 1);
   border-radius: 8px 0px 8px 0px;
-  box-shadow: -5px 0px 10px 5px rgba(222, 59, 208, 1);
+  box-shadow: 
+  inset 20px 0 60px rgba(222, 59, 208, 1),
+  -5px 0px 10px 5px rgba(222, 59, 208, 1);
   padding: 10px;
   margin: 30px;
   margin-right: 80px;
@@ -32,7 +36,9 @@
   border-right: 3px solid rgba(102, 37, 177, 1);
   border-bottom: 3px solid rgba(102, 37, 177, 1);
   border-radius: 0px 8px 0px 8px;
-  box-shadow: 5px 0px 10px 5px rgba(102, 37, 177, 1);
+  box-shadow: 
+  inset 20px 0 60px rgba(102, 37, 177, 1),
+  5px 0px 10px 5px rgba(102, 37, 177, 1);
   padding: 10px;
   margin: 30px;
   margin-left: 80px;
@@ -45,7 +51,7 @@
 }
 
 a {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 

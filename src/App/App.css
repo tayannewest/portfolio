@@ -1,3 +1,18 @@
+html {
+  box-sizing: border-box
+}
+
+*, 
+*::before,
+*::after { 
+
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 90%
+}
+
 body{
   display: flex;
   justify-content: center;
@@ -17,5 +32,9 @@ a {
 h1 {
   font-family: "Unica One", cursive;
   font-size: 3rem;
+}
+
+.header {
+  margin: 20px;
 }
 

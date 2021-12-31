@@ -6,12 +6,12 @@
 
 .odd {
   align-content: flex-start;
-  background: linear-gradient(to right, rgba(49, 227, 144, 0.6), rgba(49, 227, 144, 0));
-  border-top: 3px solid rgba(49, 227, 144, 1);
-  border-left: 3px solid rgba(49, 227, 144, 1);
-  border-bottom: 3px solid rgba(49, 227, 144, 1);
+  background: linear-gradient(to right, rgba(222, 59, 208, 0.6), rgba(49, 227, 144, 0));
+  border-top: 3px solid rgba(222, 59, 208, 1);
+  border-left: 3px solid rgba(222, 59, 208, 1);
+  border-bottom: 3px solid rgba(222, 59, 208, 1);
   border-radius: 8px 0px 8px 0px;
-  box-shadow: -5px 0px 10px 5px rgba(49, 227, 144, 1);
+  box-shadow: -5px 0px 10px 5px rgba(222, 59, 208, 1);
   padding: 10px;
   margin: 30px;
   margin-right: 80px;
@@ -19,11 +19,12 @@
 
 .odd a:hover {
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgba(49, 227, 144, 1), 0 0 40px rgba(49, 227, 144, 1), 0 0 50px rgba(49, 227, 144, 1), 0 0 60px rgba(49, 227, 144, 1), 0 0 70px rgba(49, 227, 144, 1);
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgba(222, 59, 208, 1), 0 0 40px rgba(222, 59, 208, 1), 0 0 50px rgba(222, 59, 208, 1), 0 0 60px rgba(222, 59, 208, 1), 0 0 70px rgba(222, 59, 208, 1);
   transition: 666ms;
 }
 
 .even {
+  text-align: right;
   align-content: flex-end;
   background: linear-gradient(to left, rgba(102, 37, 177, 0.6), rgba(102, 37, 177, 0));
   border-top: 3px solid rgba(102, 37, 177, 1);

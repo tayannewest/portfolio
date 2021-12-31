@@ -4,6 +4,8 @@ import About from "../About/About";
 import Works from "../Works/Works";
 import Contact from "../Contact/Contact";
 
+import me from "../Images/tay.png"
+
 import TypeAnimation from "react-type-animation"
 
 const App = () => {
@@ -30,6 +32,9 @@ const App = () => {
               repeat={Infinity}
               /></h3>
           </div>
+      </div>
+      <div className="sprite">
+        <img src={me} alt="my sprite" />
       </div>
       <div>
         <About />

@@ -4,11 +4,13 @@ const Contact = () => {
   return (
     <div>
       <div className="contact">
-        Thinking of with me? Want to collaborate on a project? Have general feedback? You can get in touch with me here!
+        Thinking of working with me? Want to collaborate on a project? Have general feedback? You can get in touch with me here!
         <div>
           <address className="addresses">
-            <a href="mailto:tayanne.west@gmail.com">Email</a>
-            <a href="https://www.linkedin.com/in/tayannewest/">LinkedIn</a>
+            Email me: 
+            <a href="mailto:tayanne.west@gmail.com"> Gmail Logo </a>
+            Connect with me:
+            <a href="https://www.linkedin.com/in/tayannewest/"> LinkedIn Logo </a>
           </address>
         </div>
       </div>

@@ -10,10 +10,11 @@
   border-top: 3px solid rgba(49, 227, 144, 1);
   border-left: 3px solid rgba(49, 227, 144, 1);
   border-bottom: 3px solid rgba(49, 227, 144, 1);
-  border-radius: 8px;
+  border-radius: 8px 0px 8px 0px;
   box-shadow: -5px 0px 10px 5px rgba(49, 227, 144, 1);
   padding: 10px;
   margin: 30px;
+  margin-right: 80px;
 }
 
 .odd a:hover {
@@ -24,14 +25,15 @@
 
 .even {
   align-content: flex-end;
-  background: linear-gradient(to left, rgba(102, 37, 177, 0.5), rgba(102, 37, 177, 0));
+  background: linear-gradient(to left, rgba(102, 37, 177, 0.6), rgba(102, 37, 177, 0));
   border-top: 3px solid rgba(102, 37, 177, 1);
   border-right: 3px solid rgba(102, 37, 177, 1);
   border-bottom: 3px solid rgba(102, 37, 177, 1);
-  border-radius: 8px;
+  border-radius: 0px 8px 0px 8px;
   box-shadow: 5px 0px 10px 5px rgba(102, 37, 177, 1);
   padding: 10px;
   margin: 30px;
+  margin-left: 80px;
 }
 
 .even a:hover {

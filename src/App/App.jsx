@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div>
       <div className="header">
+      <h1>Tay West</h1>
       <h2>Hello it's me Tay and wow I'm doing my little best over here</h2>
         <h3>I do programmer things</h3>
       </div>

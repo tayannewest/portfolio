@@ -34,7 +34,11 @@ const Works = () => {
           EJS | Mongoose | MongoDB
         </div>
         <div className="work odd">
-          A work example
+          <a href="https://frankthedestro.netlify.app/">Frank the Destro Digital Business Card</a>
+          <br />
+          A mobile contact card
+          <br />
+          Javascript | CSS | Procreate
         </div>
       </div>
   )

@@ -13,10 +13,13 @@ const Contact = () => {
             Email me: 
             <a href="mailto:tayanne.west@gmail.com"> Email </a>
             <br />
-            Check my qualifications: <a href="https://docs.google.com/document/d/1MeqHFGCsltH8sX5Giue024IBYjBj7RPrwDK55thUf1I/edit?usp=sharing">Resume</a>
+            See my experience: <a href="https://docs.google.com/document/d/1MeqHFGCsltH8sX5Giue024IBYjBj7RPrwDK55thUf1I/edit?usp=sharing">Resume</a>
             <br />
             Connect with me:
             <a href="https://www.linkedin.com/in/tayannewest/"> LinkedIn </a>
+            <br />
+            Check out my code:
+            <a href="https://github.com/tayannewest">GitHub</a>
         </div>
       </div>
     </div>

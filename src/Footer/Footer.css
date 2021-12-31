@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.foot-glow {
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+from {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(222, 59, 208, 1), 0 0 40px rgba(222, 59, 208, 1), 0 0 50px rgba(222, 59, 208, 1), 0 0 60px rgba(222, 59, 208, 1), 0 0 70px rgba(222, 59, 208, 1);
+}
+to {
+  text-shadow: 0 0 20px #fff, 0 0 30px rgba(102, 37, 177, 1), 0 0 40px rgba(102, 37, 177, 1), 0 0 50px rgba(102, 37, 177, 1), 0 0 60px rgba(102, 37, 177, 1), 0 0 70px rgba(102, 37, 177, 1), 0 0 80px rgba(102, 37, 177, 1);
+}
+}

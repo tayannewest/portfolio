@@ -5,10 +5,7 @@ import "./Contact.css"
 const Contact = () => {
   return (
     <div>
-      <div className="contact">
-        <div className="blurb">
-        Thinking of working with me? Want to collaborate on a project? Have general feedback? You can get in touch with me here!
-        </div>
+      <div className="contact" id="contact">
         <div className="address">
             Email me: 
             <a href="mailto:tayanne.west@gmail.com"> Email </a>

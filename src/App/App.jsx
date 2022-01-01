@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css"
+import Nav from "../Nav/Nav";
 import About from "../About/About";
 import Works from "../Works/Works";
 import Contact from "../Contact/Contact";
@@ -12,7 +13,9 @@ import TypeAnimation from "react-type-animation"
 const App = () => {
   return (
     <div>
-      <div className="header">
+      <div className="header" id="outer-container">
+        <Nav pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
+        <div id="page-wrap">
         <div className="name">
           <h1 className="tay">Tay West</h1>
             <h3 className="typing">
@@ -31,19 +34,25 @@ const App = () => {
                 2200,
               ]}
               repeat={Infinity}
-              /></h3>
-          </div>
-      <div className="sprite">
-        <img src={me} alt="my sprite" />
-      </div>
+              />
+            </h3>
+              <div className="sprite">
+                <img src={me} alt="my sprite" />
+              </div>
+        </div>
+        </div>
       </div>
       <div>
         <About />
       </div>
       <div>
+        <h2>Check out some of my most recent projects</h2>
         <Works />
       </div>
       <div>
+      <h2 className="blurb">
+        Thinking of working with me? Want to collaborate on a project? Have general feedback? You can get in touch with me here!
+        </h2>
         <Contact />
       </div>
       <div>

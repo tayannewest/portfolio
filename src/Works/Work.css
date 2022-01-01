@@ -4,8 +4,9 @@
   flex-wrap: wrap;
   line-height: 2.5rem;
   font-size: 1.2rem;
-  padding-top: 40px;
   margin: 20px;
+  padding-bottom: 30px;
+  border-bottom: 10px dotted white;
 }
 
 .odd {
@@ -18,7 +19,7 @@
   box-shadow: 
   inset 20px 0 60px rgba(222, 59, 208, 1),
   -5px 0px 10px 5px rgba(222, 59, 208, 1);
-  padding: 10px;
+  padding: 20px;
   margin: 30px;
   margin-right: 80px;
 }
@@ -40,7 +41,7 @@
   box-shadow: 
   inset 20px 0 60px rgba(102, 37, 177, 1),
   5px 0px 10px 5px rgba(102, 37, 177, 1);
-  padding: 10px;
+  padding: 20px;
   margin: 30px;
   margin-left: 80px;
 }

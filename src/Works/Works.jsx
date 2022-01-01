@@ -3,8 +3,7 @@ import "./Work.css"
 
 const Works = () => {
   return (
-      <div className="all-work">
-        <h2>Recent Projects</h2>
+      <div className="all-work" id="works">
         <div className="work odd">
           <a href="http://swatchdog.herokuapp.com/">SwatchDog</a>
           <br />

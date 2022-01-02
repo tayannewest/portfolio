@@ -7,6 +7,7 @@ import node from "../Images/Node-JS-02.svg"
 import python from "../Images/Python-04.svg"
 import django from "../Images/Django-03.svg"
 import mongoDB from "../Images/mongodb-icon.svg"
+import jquery from "../Images/jquery_plain_logo_icon_146444.svg"
 import axios from "../Images/axios_logo_icon_168545.svg"
 import github from "../Images/github-tile.svg"
 
@@ -41,6 +42,10 @@ const Skills = () => {
       <div className="logo">
         <img src={mongoDB} alt="mongoDB logo" className="skill-logo"/>
         <h3>MongoDB</h3>
+      </div>
+      <div className="logo">
+        <img src={jquery} alt="jquery logo" className="skill-logo"/>
+        <h3>jQuery</h3>
       </div>
       <div className="logo">
         <img src={axios} alt="axios logo" className="skill-logo"/>

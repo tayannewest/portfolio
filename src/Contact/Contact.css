@@ -14,3 +14,12 @@ a:hover {
   text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgba(222, 59, 208, 1), 0 0 40px rgba(222, 59, 208, 1), 0 0 50px rgba(222, 59, 208, 1), 0 0 60px rgba(222, 59, 208, 1), 0 0 70px rgba(222, 59, 208, 1);
   transition: 666ms;
 }
+
+@media only screen and (max-width: 850px) {
+
+  .contact {
+    border-top: 5px dotted white;
+    border-left: 5px dotted white;
+  }
+
+}

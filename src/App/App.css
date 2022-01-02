@@ -31,13 +31,13 @@ body{
 
 
 a {
-  font-family: "Unica One", cursive;
+  font-family: "Unica One", sans-serif;
   text-decoration: none;
   color: white;
 }
 
 h1 {
-  font-family: "Unica One", cursive;
+  font-family: "Unica One", sans-serif;
   font-size: 3.5rem;
 }
 

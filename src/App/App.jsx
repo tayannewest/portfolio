@@ -44,21 +44,22 @@ const App = () => {
         </div>
       </div>
         <div>
+          <h2 id="about">Welcome in!</h2>
           <About />
         </div>
         <div>
-          <h2>Check out some of my most recent projects
+          <h2  id="works">Check out some of my most recent projects
           </h2>
           <Works />
         </div>
         <div>
         <div>
-          <h2>
+          <h2  id="skills">
           I have a particular set of skills...
           </h2>
           <Skills />
         </div>
-          <h2>
+          <h2  id="contact">
           Thinking of working with me? Want to collaborate on a project? Have general feedback? You can get in touch with me here!
           </h2>
           <Contact />

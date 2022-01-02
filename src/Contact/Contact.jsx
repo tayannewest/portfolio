@@ -5,7 +5,7 @@ import "./Contact.css"
 const Contact = () => {
   return (
     <div>
-      <div className="contact" id="contact">
+      <div className="contact">
         <div className="address">
             Email me: 
             <a href="mailto:tayanne.west@gmail.com"> Email </a>

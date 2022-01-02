@@ -20,6 +20,11 @@ const Nav = () => {
         Recent Projects
       </AnchorLink>
       <AnchorLink 
+      href="#skills" 
+      className="menu-item">
+        Skills and Technologies
+      </AnchorLink>
+      <AnchorLink 
       href="#contact" 
       className="menu-item">
         Contact

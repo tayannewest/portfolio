@@ -13,7 +13,7 @@ import github from "../Images/github-tile.svg"
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="logo">
         <img src={js} alt="js logo" className="skill-logo"/>
         <h3>JavaScript</h3>

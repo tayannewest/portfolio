@@ -6,8 +6,10 @@
   font-size: 1.2rem;
   margin: 30px;
   padding-top: 30px;
+  padding-bottom: 30px;
   border-top: 10px dotted white;
   border-right: 10px dotted white;
+  border-bottom: 10px dotted white;
 }
 
 .odd {
@@ -68,6 +70,8 @@ a {
     margin: 10px;
     border-top: 5px dotted white;
     border-right: 5px dotted white;
+    border-bottom: 5px dotted white;
+
   }
 
   .odd {

@@ -4,6 +4,7 @@ import Nav from "../Nav/Nav";
 import About from "../About/About";
 import Works from "../Works/Works";
 import Contact from "../Contact/Contact";
+import Skills from "../Skills/Skills";
 import Footer from "../Footer/Footer";
 
 import me from "../Images/tay.png"
@@ -46,11 +47,18 @@ const App = () => {
           <About />
         </div>
         <div>
-          <h2>Check out some of my most recent projects</h2>
+          <h2>Check out some of my most recent projects
+          </h2>
           <Works />
         </div>
         <div>
-        <h2 className="blurb">
+        <div>
+          <h2>
+          I have a particular set of skills...
+          </h2>
+          <Skills />
+        </div>
+          <h2>
           Thinking of working with me? Want to collaborate on a project? Have general feedback? You can get in touch with me here!
           </h2>
           <Contact />

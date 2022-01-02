@@ -1,3 +1,10 @@
+.contact {
+  border-top: 10px dotted white;
+  border-left: 10px dotted white;
+  width: 90%;
+  margin: 20px;
+}
+
 .blurb {
   margin: 20px;
   padding-top: 40px;

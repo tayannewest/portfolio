@@ -4,9 +4,10 @@
   flex-wrap: wrap;
   line-height: 2.5rem;
   font-size: 1.2rem;
-  margin: 20px;
-  padding-bottom: 30px;
-  border-bottom: 10px dotted white;
+  margin: 30px;
+  padding-top: 30px;
+  border-top: 10px dotted white;
+  border-right: 10px dotted white;
 }
 
 .odd {
@@ -62,7 +63,11 @@ a {
   .all-work {
     line-height: 2rem;
     font-size: 1.1rem;
+    padding-top: 10px;
+    padding-right: 10px;
     margin: 10px;
+    border-top: 5px dotted white;
+    border-right: 5px dotted white;
   }
 
   .odd {

@@ -1,31 +1,29 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu"
 import "./Nav.css"
-import { Link } from "react-scroll"
+// import { Link } from "react-scroll"
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Nav = () => {
 
   return (
     <Menu right>
-      <Link 
-      smooth={true}
-      to="about" 
+      <AnchorLink 
+      href="#about" 
       className="menu-item">
         About Me
-      </Link>
-      <Link 
-      smooth={true}
-      to="works" 
+      </AnchorLink>
+      <AnchorLink 
+      href="#works" 
       className="menu-item">
         Recent Projects
-      </Link>
-      <Link 
-      smooth={true}
-      to="contact" 
+      </AnchorLink>
+      <AnchorLink 
+      href="#contact" 
       className="menu-item">
         Contact
-      </Link>
+      </AnchorLink>
     </Menu>
   )
 }

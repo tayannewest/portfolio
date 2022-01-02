@@ -15,8 +15,8 @@ const Contact = () => {
             Connect with me:
             <a href="https://www.linkedin.com/in/tayannewest/"> LinkedIn </a>
             <br />
-            Check out my code:
-            <a href="https://github.com/tayannewest">GitHub</a>
+            Check out my code: 
+            <a href="https://github.com/tayannewest"> GitHub</a>
         </div>
       </div>
     </div>

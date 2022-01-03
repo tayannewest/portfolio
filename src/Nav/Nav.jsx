@@ -1,7 +1,6 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu"
 import "./Nav.css"
-// import { Link } from "react-scroll"
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Nav extends React.Component {

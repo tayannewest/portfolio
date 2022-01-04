@@ -30,7 +30,7 @@ const Works = () => {
           <br />
           An ode to Tim Robinson
           <br />
-          EJS | Mongoose | MongoDB
+          EJS | MongoDB | Google OAuth
         </div>
         <div className="work odd">
           <a href="https://frankthedestro.netlify.app/">Frank the Destro Digital Business Card</a>

@@ -6,6 +6,8 @@ export default function Form(props) {
 	const [email, setEmail] = React.useState('')
 	const [message, setMessage] = React.useState('')
 
+  const close = props.close
+
 	function encode(data) {
 		return Object.keys(data)
 			.map(
@@ -16,6 +18,7 @@ export default function Form(props) {
 
 	function handleSubmit(e) {
 		e.preventDefault()
+    close()
 		fetch('/', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -81,7 +84,6 @@ export default function Form(props) {
       <button
         type="submit"
         className="inputBtn"
-        onSubmit={props.close}
         >
         Send!
       </button>

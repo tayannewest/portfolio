@@ -81,7 +81,7 @@ export default function Form(props) {
       <button
         type="submit"
         className="inputBtn"
-        //onClick={props.close}
+        onSubmit={props.close}
         >
         Send!
       </button>

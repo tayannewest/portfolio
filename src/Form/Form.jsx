@@ -75,7 +75,7 @@ export default function Form(props) {
         />
       </div>
       <button
-        type="submit"
+        type="button"
         className="inputBtn"
         onClick={props.close}>
         Send!

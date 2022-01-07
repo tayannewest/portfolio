@@ -7,6 +7,8 @@ contact-form {
   box-shadow: 
   inset 20px 0 60px rgba(222, 59, 208, 1),
   0px 0px 10px 5px rgba(222, 59, 208, 1);
+  text-align: center;
+  font-size: 3rem;
 }
 
 label {

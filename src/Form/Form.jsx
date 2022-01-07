@@ -41,9 +41,9 @@ export default function Form(props) {
       name="form-name" 
       value="contact" 
       />
-      <h2 className="contact-header">
+      <h1 className="contact-header">
         Drop me a line!
-      </h2>
+      </h1>
       <div>
         <label htmlFor="name">
           Name

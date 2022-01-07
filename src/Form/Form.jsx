@@ -33,6 +33,7 @@ export default function Form(props) {
       onSubmit={handleSubmit}
       className="contact-form"
       >
+      <input type="hidden" name="form-name" value="contact" />
       <h2 className="contact-header">
         Drop me a line!
       </h2>

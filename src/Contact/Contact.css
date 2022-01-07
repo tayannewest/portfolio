@@ -20,6 +20,29 @@ a:hover {
   transition: 666ms;
 }
 
+button {
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: "Unica One", sans-serif;
+  font-size: 2.2rem;
+  background-color: transparent;
+  padding-left: 7px;
+  cursor: pointer;
+}
+
+.submit {
+  box-shadow: 
+  inset 20px 0 60px rgba(222, 59, 208, 1),
+  0px 0px 10px 5px rgba(222, 59, 208, 1);
+  margin: 15px;
+}
+
+button:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgba(222, 59, 208, 1), 0 0 40px rgba(222, 59, 208, 1), 0 0 50px rgba(222, 59, 208, 1), 0 0 60px rgba(222, 59, 208, 1), 0 0 70px rgba(222, 59, 208, 1);
+  transition: 666ms;
+}
+
 @media only screen and (max-width: 850px) {
 
   .contact {

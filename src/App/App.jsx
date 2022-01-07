@@ -12,6 +12,7 @@ import me from "../Images/tay.png"
 import TypeAnimation from "react-type-animation"
 
 const App = () => {
+
   return (
     <div>
       <div className="header" id="outer-container">

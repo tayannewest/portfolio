@@ -54,12 +54,12 @@ const App = () => {
           <Works />
         </div>
         <div>
-        <div>
           <h2  id="skills">
           I have a particular set of skills...
           </h2>
           <Skills />
         </div>
+        <div>
           <h2  id="contact">
           Thinking of working with me? Want to collaborate on a project? Have general feedback? You can get in touch with me here!
           </h2>

@@ -24,13 +24,13 @@ const Contact = () => {
               </div>
             </Modal>
             <br />
-            See my experience: <a  href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1MeqHFGCsltH8sX5Giue024IBYjBj7RPrwDK55thUf1I/export?format=pdf">Resume</a>
+            See my experience: <a  href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1MeqHFGCsltH8sX5Giue024IBYjBj7RPrwDK55thUf1I/export?format=pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             <br />
             Connect with me:
-            <a href="https://www.linkedin.com/in/tayannewest/"> LinkedIn </a>
+            <a href="https://www.linkedin.com/in/tayannewest/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
             <br />
             Check out my code: 
-            <a href="https://github.com/tayannewest"> GitHub</a>
+            <a href="https://github.com/tayannewest" target="_blank" rel="noopener noreferrer"> GitHub</a>
         </div>
       </div>
     </div>

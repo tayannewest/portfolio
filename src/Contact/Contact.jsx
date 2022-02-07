@@ -1,5 +1,6 @@
 import React from "react";
 import { useModal } from "react-hooks-use-modal";
+import CustomButton from "../Widget/Widget";
 import "../App/App.css"
 import "./Contact.css"
 import Form from "../Form/Form";
@@ -10,6 +11,7 @@ const Contact = () => {
     preventScroll: true,
     closeOnOverlayClick: false
   })
+
 
   return (
     <div>
@@ -23,6 +25,8 @@ const Contact = () => {
                 <button type="submit" className="submit" onClick={close}>Wait, no, take me back!</button>
               </div>
             </Modal>
+            <br />
+            Set up a meeting: <CustomButton />
             <br />
             See my experience: <a  href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1MeqHFGCsltH8sX5Giue024IBYjBj7RPrwDK55thUf1I/export?format=pdf" target="_blank" rel="noreferrer">Resume</a>
             <br />

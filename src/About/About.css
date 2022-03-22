@@ -5,6 +5,7 @@
   padding-bottom: 20px;
   font-size: 1.4rem;
   width: 60vw;
+  max-width: 800px;
   border-bottom: 10px dotted white;
   border-left: 10px dotted white;
 }
